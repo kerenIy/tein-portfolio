@@ -43,7 +43,7 @@ export default function Projects() {
         </div>
 
         <ProjectItem
-          img={kiasup}
+          img={""}
           tech="NextJs, TypeScript, TailwindCSS"
           title="02. Soundmind Digital Health"
           description="SoundMind is a platform that connects individuals seeking mental health support with vetted professional therapists. It enables seamless virtual sessions through chat and video consultations while also providing access to valuable mental health resources for personal growth and well-being."
@@ -51,7 +51,7 @@ export default function Projects() {
         />
 
         <ProjectItem
-          img={kiasup}
+          img={""}
           tech="React, TailwindCSS"
           title="03. Foam"
           description="Foam Laundry Application simplifies the laundry process with an intuitive interface that allows users to select items for cleaning, make secure payments, and receive instant receipts. Users can also track their laundry progress in real time until it is delivered back to them."
