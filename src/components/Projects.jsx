@@ -44,8 +44,24 @@ export default function Projects() {
 
         <ProjectItem
           img={kiasup}
+          tech="NextJs, TypeScript, TailwindCSS"
+          title="02. Soundmind Digital Health"
+          description="SoundMind is a platform that connects individuals seeking mental health support with vetted professional therapists. It enables seamless virtual sessions through chat and video consultations while also providing access to valuable mental health resources for personal growth and well-being."
+          link="https://soundmind-web.vercel.app/patient/login"
+        />
+
+        <ProjectItem
+          img={kiasup}
           tech="React, TailwindCSS"
-          title="01. Kiasup"
+          title="03. Foam"
+          description="Foam Laundry Application simplifies the laundry process with an intuitive interface that allows users to select items for cleaning, make secure payments, and receive instant receipts. Users can also track their laundry progress in real time until it is delivered back to them."
+          link="https://www.foamlaundryapp.com/"
+        />
+
+         <ProjectItem
+          img={kiasup}
+          tech="React, TailwindCSS"
+          title="04. Kiasup"
           description="Kiasup is a dynamic platform dedicated to connecting artisans, service providers, freelancers, and small-scale workers with clients seeking their expertise."
           link="https://www.kiasup.com/"
         />
@@ -53,7 +69,7 @@ export default function Projects() {
         <ProjectItem
           img={veskee}
           tech="HTML, CSS, JS"
-          title="02. VESKEE"
+          title="05. VESKEE"
           description="Veskee is a financial application that is revolutionising the economic framework of large establishments through superior software solutions"
           link="https://veskee.com/"
         />
@@ -61,17 +77,11 @@ export default function Projects() {
         <ProjectItem
           img={jikoo}
           tech="REACT"
-          title="03. JIKOO"
+          title="06. JIKOO"
           description="Jikoo is a food delivery application that allows users to order food, and gives food vendors an opportunity to sell their food on a larger marketplace."
           link="https://jikoo.ng/"
         />
-        <ProjectItem
-          img={ridebuddy}
-          tech="REACT"
-          title="04. RIDEBUDDY"
-          description="This is a web and mobile application that allows users track their expenses and make budgets"
-          link="https://ridebuddyinc.com/"
-        />
+       
       </div>
     </div>
   );
